@@ -1,10 +1,11 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
+import { ViewContainer } from './styles'
 
 export const Groups: React.FunctionComponent = () => {
   return (
-    <View>
-      <Text style={{ color: 'black' }}>Hello world</Text>
-    </View>
+    <ViewContainer>
+      <Text style={{ color: 'white' }}>Hello world</Text>
+    </ViewContainer>
   )
 }
